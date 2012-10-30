@@ -186,13 +186,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Mesko (RKPZHZH2E6)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloPoly_Prefix.pch;
 				INFOPLIST_FILE = "HelloPoly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = HelloPoly;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6889178A-B32A-45E2-9AED-8FB26C21A836";
 			};
 			name = Debug;
 		};
@@ -204,6 +207,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloPoly_Prefix.pch;
 				INFOPLIST_FILE = "HelloPoly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = HelloPoly;
 			};
 			name = Release;
